@@ -1,0 +1,1079 @@
+# PrintPop — шаблон за превод (език на оригинала: български).
+msgid ""
+msgstr ""
+"Project-Id-Version: PrintPop 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: bg_BG\n"
+"X-Domain: printpop\n"
+
+#: inc/order-status.php
+msgctxt "Order status"
+msgid "Доставена"
+msgstr ""
+
+#: inc/order-status.php
+msgctxt "Order status"
+msgid "Изпратена"
+msgstr ""
+
+#: inc/order-status.php
+msgctxt "Order status"
+msgid "Печата се"
+msgstr ""
+
+#: inc/order-status.php
+msgctxt "Order status"
+msgid "Получена"
+msgstr ""
+
+#: inc/product-meta.php
+msgid "3D модел за преглед (URL на .glb/.gltf; чака viewer)"
+msgstr ""
+
+#: front-page.php
+msgid "3D печат по поръчка"
+msgstr ""
+
+#: footer.php
+msgid "3D печат по поръчка: от полезни части до персонални подаръци."
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "3D преглед"
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "3D файлът е зададен, но viewer плъгинът още не е свързан."
+msgstr ""
+
+#: inc/customizer.php
+msgid "PrintPop"
+msgstr ""
+
+#: template-about.php
+msgid "PrintPop е 3D печат по поръчка — от полезни части до персонални подаръци."
+msgstr ""
+
+#: inc/product-meta.php
+msgid "PrintPop: видео, 3D и размери"
+msgstr ""
+
+#: inc/setup-pages.php
+msgid "PrintPop: основните страници още не са готови."
+msgstr ""
+
+#: template-upload.php
+msgid "STL, 3MF, OBJ, STEP — проверяваме го преди печат."
+msgstr ""
+
+#: template-privacy.php
+msgid "Администратор на лични данни и контакт"
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Ако не въведеш размери, ще използваме тези от файла."
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Ако файлът не може да бъде анализиран автоматично или проверката открие проблем, ще го прегледаме ръчно, а цената ще бъде потвърдена с оферта."
+msgstr ""
+
+#: inc/product-options.php
+msgid "Баланс между време и детайл"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Балансирано"
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Бележка (по желание)"
+msgstr ""
+
+#: template-privacy.php
+msgid "Бисквитки"
+msgstr ""
+
+#: template-about.php
+msgid "В началото доставяме в България до офис на Еконт или Спиди."
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Вид преглед"
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Видео"
+msgstr ""
+
+#: inc/product-meta.php
+msgid "Видео (URL на mp4/webm; празно = показва се снимка)"
+msgstr ""
+
+#: inc/discover.php
+msgid "Виж модела"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Високо качество"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Височина"
+msgstr ""
+
+#: template-parts/upload-idea.php template-parts/upload-model.php
+msgid "Височина (мм)"
+msgstr ""
+
+#: template-favorites.php
+msgid "Влез, за да виждаш любимите си модели"
+msgstr ""
+
+#: inc/setup.php
+msgid "Влез, за да запазиш в „Любими“"
+msgstr ""
+
+#: template-parts/legal.php
+msgid "Временна страница"
+msgstr ""
+
+#: template-shipping.php
+msgid "Връщане и рекламации (особености при персонализирани изделия)"
+msgstr ""
+
+#: template-discover.php
+msgid "Всички категории"
+msgstr ""
+
+#: template-discover.php
+msgid "Всички материали"
+msgstr ""
+
+#: front-page.php
+msgid "Всички модели"
+msgstr ""
+
+#: inc/setup.php template-favorites.php template-upload.php
+msgid "Вход / регистрация"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Въведи и трите размера (ширина, височина, дълбочина) или остави всички полета празни."
+msgstr ""
+
+#: template-contact.php
+msgid "Въпрос за поръчка, модел или оферта? Пиши ни."
+msgstr ""
+
+#: template-upload.php
+msgid "Готов 3D файл"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Готови размери"
+msgstr ""
+
+#: inc/product-meta.php
+msgid "Готови размери, по един на ред: Име|Ширина|Височина|Дълбочина (мм)"
+msgstr ""
+
+#: template-terms.php
+msgid "Данни за търговеца"
+msgstr ""
+
+#: template-contact.php
+msgid "Данните за контакт още не са попълнени. Добави ги от Външен вид → Customize → PrintPop → Контакти."
+msgstr ""
+
+#: front-page.php
+msgid "Декорации и подаръци"
+msgstr ""
+
+#: template-upload.php
+msgid "Дизайнът е готов, но изпращането още не е свързано. Бутонът е изключен."
+msgstr ""
+
+#: template-upload.php
+msgid "Дизайнът е готов, но качването още не е свързано. Бутонът е изключен."
+msgstr ""
+
+#: inc/setup.php
+msgid "Добавено в количката"
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Добави 3D файл (.glb) в полето на продукта и свържи viewer."
+msgstr ""
+
+#: inc/discover.php
+msgid "Добави в „Любими“"
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Добави снимки или чертеж (по желание)"
+msgstr ""
+
+#: inc/order-status.php
+msgid "Доставена"
+msgstr ""
+
+#: footer.php
+msgid "Доставка до офис на Еконт и Спиди."
+msgstr ""
+
+#: inc/woocommerce.php woocommerce/content-single-product.php
+msgid "Доставка до офис на Еконт или Спиди"
+msgstr ""
+
+#: footer.php inc/setup-pages.php template-shipping.php
+msgid "Доставка и връщане"
+msgstr ""
+
+#: template-shipping.php
+msgid "Доставка само до офис на Еконт или Спиди; първоначално само в България"
+msgstr ""
+
+#: front-page.php
+msgid "Доставяме до офис на Еконт или Спиди и те информираме на всяка стъпка."
+msgstr ""
+
+#: inc/product-options.php
+msgid "Дълбочина"
+msgstr ""
+
+#: template-parts/upload-idea.php template-parts/upload-model.php
+msgid "Дълбочина (мм)"
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Желана ширина (мм)"
+msgstr ""
+
+#: template-about.php
+msgid "За PrintPop"
+msgstr ""
+
+#: template-discover.php
+msgid "За да работи потокът, активирай WooCommerce и добави модели като продукти."
+msgstr ""
+
+#: footer.php inc/helpers.php inc/setup-pages.php template-about.php
+msgid "За нас"
+msgstr ""
+
+#: template-shipping.php
+msgid "Забавяне при неуспешен печат"
+msgstr ""
+
+#: inc/setup.php
+msgid "Запазено в „Любими“"
+msgstr ""
+
+#: inc/setup.php template-discover.php
+msgid "Затвори"
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Избери 3D файл"
+msgstr ""
+
+#: front-page.php
+msgid "Избери или изпрати идея"
+msgstr ""
+
+#: template-upload.php
+msgid "Избери как искаш да започнем."
+msgstr ""
+
+#: inc/product-options.php
+msgid "Избери материал."
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Избери файл"
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Избери файлове"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Избери цвят."
+msgstr ""
+
+#: template-upload.php
+msgid "Избор на път"
+msgstr ""
+
+#: template-favorites.php
+msgid "Изисква плъгин за любими. Дотогава моделите не се запазват."
+msgstr ""
+
+#: inc/order-status.php
+msgid "Изпратена"
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Изпрати за оферта"
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Изпрати за проверка"
+msgstr ""
+
+#: front-page.php template-discover.php
+msgid "Изпрати идея"
+msgstr ""
+
+#: front-page.php
+msgid "Изпрати снимка или идея и получи оферта за изделие само за теб."
+msgstr ""
+
+#: template-contact.php
+msgid "Изпрати съобщение"
+msgstr ""
+
+#: template-discover.php
+msgid "Изчисти"
+msgstr ""
+
+#: template-discover.php
+msgid "Изчисти филтрите"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Икономично"
+msgstr ""
+
+#: template-upload.php
+msgid "Имам готов 3D файл"
+msgstr ""
+
+#: template-upload.php
+msgid "Имам снимка, текст или идея"
+msgstr ""
+
+#: front-page.php
+msgid "Имаш идея? Ние я превръщаме в 3D модел."
+msgstr ""
+
+#: front-page.php
+msgid "Имаш файл или само идея?"
+msgstr ""
+
+#: inc/customizer.php template-contact.php
+msgid "Имейл"
+msgstr ""
+
+#: template-parts/upload-idea.php template-parts/upload-model.php
+msgid "Имейл за връзка"
+msgstr ""
+
+#: footer.php
+msgid "Информация"
+msgstr ""
+
+#: front-page.php
+msgid "Как работи"
+msgstr ""
+
+#: template-shipping.php
+msgid "Как се доставят и връщат поръчките."
+msgstr ""
+
+#: template-privacy.php
+msgid "Как се обработват личните данни и качените файлове."
+msgstr ""
+
+#: template-upload.php
+msgid "Как става офертата"
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Какво искаш да получиш и за какво ще го използваш?"
+msgstr ""
+
+#: front-page.php
+msgid "Какво можем да отпечатаме"
+msgstr ""
+
+#: inc/product-meta.php
+msgid "Какъв проблем решава (1–2 изречения)"
+msgstr ""
+
+#: template-about.php
+msgid "Каталогът ни е подбран от нас: моделите се подготвят за печат, проверяват се в софтуер за нарязване и при нужда се правят пробни разпечатки. Ако не намираш това, което търсиш, изпрати идея, снимка или готов 3D файл и ще получиш оферта."
+msgstr ""
+
+#: template-discover.php
+msgid "Каталогът се попълва постепенно. Междувременно можеш да изпратиш своя идея."
+msgstr ""
+
+#: template-discover.php
+msgid "Каталогът ще се показва тук"
+msgstr ""
+
+#: template-discover.php
+msgid "Категория"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Качество"
+msgstr ""
+
+#: front-page.php
+msgid "Качи 3D файл за проверка или опиши какво искаш — ще прегледаме заявката ръчно и ще изпратим оферта."
+msgstr ""
+
+#: footer.php inc/helpers.php
+msgid "Качи модел"
+msgstr ""
+
+#: front-page.php inc/setup-pages.php template-upload.php
+msgid "Качи модел или изпрати идея"
+msgstr ""
+
+#: template-privacy.php
+msgid "Кои данни се събират (профил, поръчка, доставка, качени файлове)"
+msgstr ""
+
+#: front-page.php
+msgid "Колекционерски фигурки, макети и модели за настолни игри."
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Количество"
+msgstr ""
+
+#: header.php
+msgid "Количка"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Конкретните суми се задават след избора на принтер. Темата не съдържа предварително зададени цени."
+msgstr ""
+
+#: footer.php inc/customizer.php inc/helpers.php inc/setup-pages.php template-contact.php
+msgid "Контакти"
+msgstr ""
+
+#: front-page.php
+msgid "Конфигурираш размер, материал, цвят и качество. Нестандартните заявки получават оферта."
+msgstr ""
+
+#: template-contact.php
+msgid "Къде сме"
+msgstr ""
+
+#: inc/setup.php
+msgid "Към количката"
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Към моделите"
+msgstr ""
+
+#: 404.php
+msgid "Към началото"
+msgstr ""
+
+#: header.php
+msgid "Към съдържанието"
+msgstr ""
+
+#: footer.php inc/discover.php inc/setup-pages.php template-discover.php template-favorites.php
+msgid "Любими"
+msgstr ""
+
+#: template-favorites.php
+msgid "Любимите още не са свързани"
+msgstr ""
+
+#: template-favorites.php
+msgid "Любимите се пазят в профила ти."
+msgstr ""
+
+#: inc/setup.php
+msgid "Любимите се пазят в профила ти. Влез или създай профил — отнема минута."
+msgstr ""
+
+#: front-page.php
+msgid "Малки изненади за дома и за хората, които обичаш."
+msgstr ""
+
+#: inc/product-options.php template-discover.php template-parts/upload-model.php
+msgid "Материал"
+msgstr ""
+
+#: header.php
+msgid "Меню"
+msgstr ""
+
+#: inc/setup.php
+msgid "Меню в долната част"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Минимална стойност на поръчка (без доставка)"
+msgstr ""
+
+#: inc/woocommerce.php
+msgid "Минималната стойност на поръчка е %1$s. Сега в количката има %2$s."
+msgstr ""
+
+#: footer.php
+msgid "Мобилна навигация"
+msgstr ""
+
+#: 404.php
+msgid "Може адресът да е променен. Върни се към началото или разгледай моделите."
+msgstr ""
+
+#: footer.php
+msgid "Навигация"
+msgstr ""
+
+#: front-page.php
+msgid "Най-нови модели"
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Напр. по предпочитание"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Населено място / адрес"
+msgstr ""
+
+#: footer.php inc/helpers.php inc/setup-pages.php
+msgid "Начало"
+msgstr ""
+
+#: template-discover.php
+msgid "Не намери това, което търсиш? Изпрати идея и ще получиш оферта."
+msgstr ""
+
+#: inc/setup.php
+msgid "Не успяхме да добавим продукта. Опитай отново."
+msgstr ""
+
+#: inc/product-options.php
+msgid "Невалидна %1$s: въведи число между %2$s и %3$s мм."
+msgstr ""
+
+#: template-upload.php
+msgid "Ние правим модела и ти изпращаме оферта."
+msgstr ""
+
+#: template-discover.php
+msgid "Няма материали — добави атрибут „Материал“ в WooCommerce."
+msgstr ""
+
+#: template-discover.php
+msgid "Няма модели по тези критерии"
+msgstr ""
+
+#: index.php
+msgid "Няма намерено съдържание."
+msgstr ""
+
+#: inc/setup-pages.php
+msgid "Нямаш права за това действие."
+msgstr ""
+
+#: front-page.php
+msgid "Обслужваме всеки, който има нужда от 3D печат."
+msgstr ""
+
+#: footer.php inc/setup-pages.php template-terms.php
+msgid "Общи условия"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Общо"
+msgstr ""
+
+#: template-parts/legal.php
+msgid "Окончателният текст предстои. Той трябва да бъде изготвен или одобрен от юрист, преди сайтът да приема поръчки."
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Описание"
+msgstr ""
+
+#: template-discover.php
+msgid "Опитай с други филтри или потърси друг израз."
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Опиши идеята си"
+msgstr ""
+
+#: inc/product-meta.php
+msgid "Оригинални размери в мм, напр. 40x30x20"
+msgstr ""
+
+#: header.php
+msgid "Основна навигация"
+msgstr ""
+
+#: inc/setup.php
+msgid "Основно меню"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Оставени празни, данните не се показват на сайта. Темата не добавя примерни контакти."
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "От"
+msgstr ""
+
+#: front-page.php
+msgid "От полезни части до персонални подаръци — изпрати идея и получи оферта."
+msgstr ""
+
+#: inc/discover.php
+msgid "Отвори %s"
+msgstr ""
+
+#: footer.php inc/helpers.php inc/setup-pages.php
+msgid "Открий"
+msgstr ""
+
+#: template-terms.php
+msgid "Оферти по заявка и плащане с карта"
+msgstr ""
+
+#: template-discover.php
+msgid "Още модели"
+msgstr ""
+
+#: template-upload.php
+msgid "Персонален печат"
+msgstr ""
+
+#: front-page.php
+msgid "Персонализирани по снимка или текст"
+msgstr ""
+
+#: inc/order-status.php
+msgid "Печата се"
+msgstr ""
+
+#: template-contact.php
+msgid "Пиши ни по имейл"
+msgstr ""
+
+#: front-page.php
+msgid "Плати с карта"
+msgstr ""
+
+#: inc/woocommerce.php
+msgid "Плащането с карта през myPOS още не е свързано. Моля, свържете се с нас за поръчката."
+msgstr ""
+
+#: inc/product-options.php
+msgid "По-бързо, по-видими слоеве"
+msgstr ""
+
+#: inc/setup.php
+msgid "По-късно"
+msgstr ""
+
+#: inc/product-options.php
+msgid "По-фини детайли, по-бавно"
+msgstr ""
+
+#: footer.php
+msgid "Поверителност"
+msgstr ""
+
+#: template-discover.php
+msgid "Покажи резултатите"
+msgstr ""
+
+#: inc/setup-pages.php template-privacy.php
+msgid "Политика за поверителност"
+msgstr ""
+
+#: template-privacy.php
+msgid "Получатели: куриери, платежен доставчик, имейл/SMS услуги"
+msgstr ""
+
+#: inc/order-status.php
+msgid "Получена"
+msgstr ""
+
+#: front-page.php
+msgid "Получи в офис на куриер"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Поръчки"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Поставете шорткод на форма от плъгин за безопасно качване на файлове (напр. [fluentform id=\"1\"]). Темата не обработва файлове сама. Празно поле = показва се обозначен, неактивен дизайн."
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Потвърждавам, че имам право да възпроизвеждам този модел (авторски права или лиценз)."
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Потвърждавам, че имам право да използвам и възпроизвеждам качените материали."
+msgstr ""
+
+#: template-discover.php
+msgid "Поток с модели. Използвай стрелките нагоре и надолу, за да сменяш модел."
+msgstr ""
+
+#: template-terms.php
+msgid "Права върху качени модели и отговорност на клиента"
+msgstr ""
+
+#: template-privacy.php
+msgid "Права на потребителите"
+msgstr ""
+
+#: front-page.php
+msgid "Практични и резервни части"
+msgstr ""
+
+#: template-upload.php
+msgid "Преглеждаме заявката и ти изпращаме оферта. За да я видиш и платиш, създаваш профил."
+msgstr ""
+
+#: template-terms.php
+msgid "Предмет и процес на поръчка (каталог и персонални заявки)"
+msgstr ""
+
+#: inc/helpers.php
+msgid "Предстои свързване"
+msgstr ""
+
+#: template-parts/upload-idea.php template-parts/upload-model.php
+msgid "Приемани формати: %s"
+msgstr ""
+
+#: template-terms.php
+msgid "Приложимо право и контакт"
+msgstr ""
+
+#: inc/product-meta.php
+msgid "Пример: #1d1d1f. Ако е празно, темата познава основни имена (бял, черен, сив, червен, син, зелен, жълт, оранжев, лилав, розов)."
+msgstr ""
+
+#: front-page.php
+msgid "Провери и потвърди"
+msgstr ""
+
+#: inc/setup.php
+msgid "Продължи разглеждането"
+msgstr ""
+
+#: inc/product-options.php inc/setup.php
+msgid "Промяната само на един размер може да изкриви модела."
+msgstr ""
+
+#: inc/setup.php
+msgid "Пропуснато"
+msgstr ""
+
+#: inc/discover.php template-discover.php
+msgid "Пропусни"
+msgstr ""
+
+#: footer.php
+msgid "Проследи поръчка"
+msgstr ""
+
+#: template-shipping.php
+msgid "Проследяване и известия за статуса"
+msgstr ""
+
+#: inc/setup-pages.php
+msgid "Проследяване на поръчка"
+msgstr ""
+
+#: footer.php header.php
+msgid "Профил"
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Път"
+msgstr ""
+
+#: inc/customizer.php template-contact.php
+msgid "Работно време"
+msgstr ""
+
+#: front-page.php
+msgid "Разгледай каталога или качи 3D файл, снимка или описание."
+msgstr ""
+
+#: 404.php front-page.php template-about.php template-favorites.php
+msgid "Разгледай модели"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Размер"
+msgstr ""
+
+#: inc/setup.php
+msgid "Размерите не са в първоначалното съотношение — моделът може да се изкриви."
+msgstr ""
+
+#: template-about.php
+msgid "Редактирай"
+msgstr ""
+
+#: template-parts/legal.php
+msgid "Редактирай страницата"
+msgstr ""
+
+#: index.php
+msgid "Резултати за „%s“"
+msgstr ""
+
+#: template-terms.php
+msgid "Рекламации и отговорност"
+msgstr ""
+
+#: footer.php
+msgid "Сайт"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Свои размери"
+msgstr ""
+
+#: footer.php template-about.php template-contact.php
+msgid "Свържи се с нас"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Сега цената е единичната цена × количество. Размерът, материалът и качеството ще влияят на цената след свързване на модула за ценообразуване."
+msgstr ""
+
+#: front-page.php
+msgid "Скоби, капачки, дръжки, копчета и други малки части, които вече не се намират."
+msgstr ""
+
+#: template-discover.php
+msgid "Скоро тук ще има модели"
+msgstr ""
+
+#: front-page.php
+msgid "След плащането поръчката влиза в опашката за печат по реда на плащане."
+msgstr ""
+
+#: template-upload.php
+msgid "Снимка, текст или идея"
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Снимки"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Социални мрежи"
+msgstr ""
+
+#: template-shipping.php
+msgid "Срок за изработка и очаквана дата при натоварване"
+msgstr ""
+
+#: template-privacy.php
+msgid "Срок на съхранение, в т.ч. на качени модели и снимки"
+msgstr ""
+
+#: template-terms.php
+msgid "Срокове за изработка и опашка за печат"
+msgstr ""
+
+#: inc/order-status.php
+msgid "Статус на поръчката"
+msgstr ""
+
+#: inc/setup-pages.php
+msgid "Създай липсващите страници (Начало, Открий, Качи модел, За нас, Контакти, Любими, Проследяване на поръчка) и задай „Начало“ като начална страница. Правните страници се създават като чернови без текст."
+msgstr ""
+
+#: inc/setup-pages.php
+msgid "Създай страниците"
+msgstr ""
+
+#: 404.php
+msgid "Тази страница не е намерена"
+msgstr ""
+
+#: inc/customizer.php inc/woocommerce.php template-contact.php
+msgid "Телефон"
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Телефон (по желание)"
+msgstr ""
+
+#: template-parts/legal.php
+msgid "Теми, които да бъдат покрити"
+msgstr ""
+
+#: inc/setup.php
+msgid "Това е последният модел в тази подредба."
+msgstr ""
+
+#: template-about.php
+msgid "Това е примерен текст, видим само докато страницата е празна. Редактирай я от редактора на WordPress."
+msgstr ""
+
+#: template-discover.php
+msgid "Това са всички модели засега"
+msgstr ""
+
+#: inc/setup.php
+msgid "Този формат не се приема. Приемани: "
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Тук ще има въртящ се 3D преглед"
+msgstr ""
+
+#: inc/woocommerce.php
+msgid "Тук ще се избират куриер и офис, а цената на доставката ще се изчислява автоматично. Изисква плъгин за Еконт/Спиди."
+msgstr ""
+
+#: template-discover.php
+msgid "Търси модел"
+msgstr ""
+
+#: template-discover.php
+msgid "Търси модел…"
+msgstr ""
+
+#: template-terms.php
+msgid "Условията за ползване на сайта и за поръчки."
+msgstr ""
+
+#: woocommerce/content-single-product.php
+msgid "Файловете се проверяват преди печат"
+msgstr ""
+
+#: inc/setup.php
+msgid "Файлът е твърде голям."
+msgstr ""
+
+#: front-page.php
+msgid "Фигурки и хоби модели"
+msgstr ""
+
+#: template-discover.php
+msgid "Филтри"
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Форма за 3D файл (преглед на дизайна)"
+msgstr ""
+
+#: template-parts/upload-idea.php
+msgid "Форма за идея (преглед на дизайна)"
+msgstr ""
+
+#: template-contact.php
+msgid "Формата още не е свързана с плъгин за форми."
+msgstr ""
+
+#: inc/customizer.php
+msgid "Форми (шорткодове от плъгини)"
+msgstr ""
+
+#: inc/setup.php
+msgid "Функцията „Любими“ още не е свързана със сайта. Моделът не е запазен."
+msgstr ""
+
+#: inc/product-options.php
+msgid "Цветът се записва към поръчката. 3D прегледът остава в базов цвят."
+msgstr ""
+
+#: inc/product-options.php template-parts/upload-idea.php template-parts/upload-model.php
+msgid "Цвят"
+msgstr ""
+
+#: inc/product-meta.php
+msgid "Цвят за кръгчето (HEX)"
+msgstr ""
+
+#: template-privacy.php
+msgid "Цели и основания за обработка"
+msgstr ""
+
+#: template-discover.php
+msgid "Цена (%s)"
+msgstr ""
+
+#: template-discover.php
+msgid "Цена до"
+msgstr ""
+
+#: template-shipping.php
+msgid "Цена и срок на доставка"
+msgstr ""
+
+#: template-discover.php
+msgid "Цена от"
+msgstr ""
+
+#: inc/product-options.php inc/setup.php
+msgid "Цената се уточнява"
+msgstr ""
+
+#: inc/product-options.php
+msgid "Ширина"
+msgstr ""
+
+#: template-parts/upload-model.php
+msgid "Ширина (мм)"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Шорткод: готов 3D файл"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Шорткод: снимка / текст / идея"
+msgstr ""
+
+#: inc/customizer.php
+msgid "Шорткод: форма за контакти"
+msgstr ""
+
+#: inc/setup-pages.php
+msgid "Ще ги създам ръчно — скрий съобщението"
+msgstr ""
+
+#: inc/product-options.php
+msgid "височина"
+msgstr ""
+
+#: template-discover.php
+msgid "до"
+msgstr ""
+
+#: inc/product-options.php
+msgid "дълбочина"
+msgstr ""
+
+#: inc/helpers.php
+msgid "начало"
+msgstr ""
+
+#: template-discover.php
+msgid "от"
+msgstr ""
+
+#: inc/product-options.php
+msgid "ширина"
+msgstr ""

@@ -1,0 +1,17 @@
+/*
+Theme Name: PrintPop
+Theme URI: https://printpop.example
+Author: PrintPop
+Description: Светла, Apple-подобна WooCommerce тема за 3D печат PrintPop: начална страница, видео поток „Открий“, продуктов конфигуратор, качване на модел/идея, За нас, Контакти и шаблони за поръчка. Интеграциите (качване, цени, плащане, куриери, любими, 3D viewer) се добавят отделно през описани точки за свързване.
+Version: 1.0.0
+Requires at least: 6.2
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: printpop
+Tags: e-commerce, custom-logo, custom-menu, featured-images, translation-ready, accessibility-ready, threaded-comments
+WC requires at least: 8.0
+*/
+
+/* Стиловете на темата са в assets/css/main.css (зареждат се през functions.php). */
