@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STRIDE — Обувки с характер</title>
+<meta name="description" content="STRIDE — магазин за маратонки с динамичен дизайн и ефекти.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader"><div class="loader-shoe"></div><div class="loader-text">STRIDE</div><div class="loader-bar"><span></span></div></div>
+
+<canvas id="bg"></canvas>
+<div id="cursor"></div><div id="cursor-dot"></div>
+<div id="progress"></div>
+
+<header id="nav">
+  <a href="#home" class="logo glitch" data-text="STRIDE">STRIDE</a>
+  <nav>
+    <a href="#home">Начало</a>
+    <a href="#collection">Колекция</a>
+    <a href="#features">Технологии</a>
+    <a href="#contact">Контакти</a>
+  </nav>
+  <button class="cart-btn magnetic" id="cartBtn" aria-label="Количка">🛒 <span id="cartCount">0</span></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="hero-text">
+    <p class="eyebrow reveal">НОВА КОЛЕКЦИЯ 2026</p>
+    <h1 class="reveal"><span class="line"><span id="typed"></span></span><br><span class="outline">ДВИЖЕНИЕ</span></h1>
+    <p class="lead reveal">Маратонки, които не просто се носят — те се усещат. Избери цвят и виж как оживява.</p>
+    <div class="swatches reveal" id="swatches"></div>
+    <div class="cta reveal">
+      <a href="#collection" class="btn magnetic ripple">Разгледай колекцията</a>
+      <a href="#features" class="btn ghost magnetic ripple">Технологии</a>
+    </div>
+  </div>
+  <div class="hero-shoe" id="heroShoe">
+    <div class="ring r1"></div><div class="ring r2"></div>
+    <div class="shoe-wrap" id="heroShoeWrap"></div>
+    <div class="shadow"></div>
+    <span class="tag t1">Лек 240г</span><span class="tag t2">Въздушна подметка</span><span class="tag t3">100% рециклиран</span>
+  </div>
+  <div class="scroll-hint">скролни ↓</div>
+</section>
+
+<div class="marquee"><div class="track">
+  <span>БЪРЗИ ★ ЛЕКИ ★ СТИЛНИ ★ УДОБНИ ★ БЪРЗИ ★ ЛЕКИ ★ СТИЛНИ ★ УДОБНИ ★ </span>
+  <span>БЪРЗИ ★ ЛЕКИ ★ СТИЛНИ ★ УДОБНИ ★ БЪРЗИ ★ ЛЕКИ ★ СТИЛНИ ★ УДОБНИ ★ </span>
+</div></div>
+
+<section class="stats">
+  <div class="stat reveal"><b data-count="25000">0</b><span>доволни клиенти</span></div>
+  <div class="stat reveal"><b data-count="48">0</b><span>модела</span></div>
+  <div class="stat reveal"><b data-count="12">0</b><span>награди</span></div>
+  <div class="stat reveal"><b data-count="99">0</b><span>% препоръки</span></div>
+</section>
+
+<section id="collection">
+  <h2 class="title reveal">Колекция</h2>
+  <div class="filters reveal" id="filters">
+    <button class="active" data-f="all">Всички</button>
+    <button data-f="run">Бягане</button>
+    <button data-f="street">Градски</button>
+    <button data-f="retro">Ретро</button>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="features">
+  <h2 class="title reveal">Технологии</h2>
+  <div class="features">
+    <div class="feature reveal tilt"><div class="icon">⚡</div><h3>Енергиен връщач</h3><p>Подметка, която връща до 85% от енергията на стъпката.</p></div>
+    <div class="feature reveal tilt"><div class="icon">🌬️</div><h3>Дишаща мрежа</h3><p>3D плетиво, което държи кракът сух и хладен.</p></div>
+    <div class="feature reveal tilt"><div class="icon">♻️</div><h3>Еко материали</h3><p>Направени от рециклирани океански пластмаси.</p></div>
+    <div class="feature reveal tilt"><div class="icon">🛡️</div><h3>Грип 360°</h3><p>Сцепление при мокро и сухо, на всяка повърхност.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="newsletter reveal">
+    <h2>Получи 10% отстъпка</h2>
+    <p>Абонирай се и бъди първи за новите модели.</p>
+    <form id="form"><input type="email" placeholder="твоят@имейл.bg" required><button class="btn ripple magnetic">Абонирай се</button></form>
+    <p id="formMsg"></p>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 STRIDE · Всички права запазени</footer>
+
+<aside id="cart">
+  <div class="cart-head"><h3>Количка</h3><button id="closeCart">✕</button></div>
+  <ul id="cartList"></ul>
+  <div class="cart-foot"><span>Общо:</span><b id="cartTotal">0 лв.</b></div>
+  <button class="btn ripple" style="width:100%">Към поръчка</button>
+</aside>
+<div id="overlay"></div>
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
