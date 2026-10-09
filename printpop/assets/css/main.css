@@ -182,6 +182,7 @@ a:hover { color: var(--pp-accent-strong); }
 	border-radius: var(--pp-radius);
 	padding: 24px;
 }
+.pp-card h2 { font-size: 1.35rem; }
 .pp-callout { display: flex; gap: 14px; align-items: flex-start; margin-top: 24px; padding: 16px 18px; background: var(--pp-accent-soft); border-radius: var(--pp-radius-sm); color: var(--pp-ink-2); }
 .pp-callout .pp-icon { color: var(--pp-accent); margin-top: 2px; }
 .pp-callout p { margin: 4px 0 0; }
@@ -231,7 +232,7 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--p
 ::placeholder { color: #8e8e93; }
 .pp-formgrid { display: grid; gap: 16px; }
 .pp-formrow { display: grid; gap: 16px; grid-template-columns: repeat(2, 1fr); }
-.pp-formrow--3 { grid-template-columns: repeat(3, 1fr); }
+.pp-formrow--3 { grid-template-columns: repeat(3, 1fr); align-items: end; }
 .pp-check { display: flex; gap: 12px; align-items: flex-start; font-size: 0.92rem; cursor: pointer; }
 .pp-check input { width: 22px; height: 22px; min-height: 0; margin: 1px 0 0; flex: none; accent-color: var(--pp-ink); }
 
@@ -387,6 +388,7 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--p
 
 /* Открий */
 .pp-discover { padding-bottom: 0; }
+@media (min-width: 821px) { .pp-discover { background: var(--pp-soft); padding-bottom: 24px; } .pp-is-discover .pp-footer { margin-top: 0; } }
 .pp-discover__shell {
 	position: relative; width: min(100%, 460px); margin: 24px auto 0;
 	height: min(calc(100dvh - var(--pp-header-h) - 48px), 880px);
@@ -394,7 +396,7 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--p
 }
 .pp-discover__shell:has(> .pp-empty) { height: auto; background: transparent; box-shadow: none; overflow: visible; }
 .pp-discover__bar {
-	position: absolute; z-index: 20; top: 0; left: 0; right: 0; display: flex; gap: 8px; padding: 12px;
+	position: absolute; z-index: 450; top: 0; left: 0; right: 0; display: flex; gap: 8px; padding: 12px;
 }
 .pp-search {
 	flex: 1; display: flex; align-items: center; gap: 8px; min-width: 0; padding: 0 14px;
@@ -416,7 +418,8 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--p
 .pp-sheet__head h2 { margin: 0; font-size: 1.25rem; }
 .pp-sheet__body { display: grid; gap: 18px; padding: 12px 20px; }
 .pp-sheet__foot { position: sticky; bottom: 0; display: flex; justify-content: space-between; gap: 12px; padding: 14px 20px calc(14px + var(--pp-safe-b)); background: #fff; border-top: 1px solid var(--pp-line); }
-.pp-sheet__foot .pp-btn--primary { flex: 1; }
+.pp-sheet__foot .pp-btn { padding: 0 18px; min-width: 0; }
+.pp-sheet__foot .pp-btn--primary { flex: 1; white-space: normal; text-align: center; line-height: 1.2; }
 .pp-field-block { display: block; margin: 0; padding: 0; border: 0; min-width: 0; }
 .pp-range { display: flex; align-items: center; gap: 10px; }
 

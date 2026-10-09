@@ -100,7 +100,7 @@ $bottom = array(
 	array( 'favorites', __( 'Любими', 'printpop' ), printpop_link( 'favorites' ), 'heart' ),
 	array( 'account', __( 'Профил', 'printpop' ), printpop_link( 'account' ), 'user' ),
 );
-$current_url = trailingslashit( strtok( home_url( add_query_arg( null, null ) ), '?' ) );
+$current_url = printpop_current_url();
 ?>
 <nav class="pp-tabbar" aria-label="<?php esc_attr_e( 'Мобилна навигация', 'printpop' ); ?>">
 	<ul>

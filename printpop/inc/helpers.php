@@ -223,7 +223,7 @@ function printpop_fallback_menu() {
 		if ( ! $url ) {
 			continue;
 		}
-		$current = untrailingslashit( $url ) === untrailingslashit( home_url( add_query_arg( null, null ) ) ) ? ' aria-current="page"' : '';
+		$current = trailingslashit( $url ) === printpop_current_url() ? ' aria-current="page"' : '';
 		printf( '<li><a href="%s"%s>%s</a></li>', esc_url( $url ), $current, esc_html( $label ) ); // phpcs:ignore WordPress.Security.EscapeOutput
 	}
 	echo '</ul>';
@@ -234,4 +234,12 @@ function printpop_fallback_menu() {
  */
 function printpop_is_template( $file ) {
 	return is_page() && get_page_template_slug() === $file;
+}
+
+/**
+ * Адрес на текущата страница без параметри (за отбелязване на активен елемент).
+ */
+function printpop_current_url() {
+	global $wp;
+	return trailingslashit( home_url( isset( $wp->request ) ? $wp->request : '' ) );
 }

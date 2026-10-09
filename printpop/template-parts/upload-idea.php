@@ -26,10 +26,12 @@ $formats = array_map( 'strtoupper', printpop_idea_formats() );
 	</div>
 
 	<div class="pp-formrow pp-formrow--3">
-		<label class="pp-input"><span><?php esc_html_e( 'Желана ширина (мм)', 'printpop' ); ?></span><input type="number" inputmode="decimal" min="1" step="any"></label>
-		<label class="pp-input"><span><?php esc_html_e( 'Височина (мм)', 'printpop' ); ?></span><input type="number" inputmode="decimal" min="1" step="any"></label>
-		<label class="pp-input"><span><?php esc_html_e( 'Дълбочина (мм)', 'printpop' ); ?></span><input type="number" inputmode="decimal" min="1" step="any"></label>
+		<label class="pp-input"><span><?php esc_html_e( 'Ширина', 'printpop' ); ?></span><input type="number" inputmode="decimal" min="1" step="any"></label>
+		<label class="pp-input"><span><?php esc_html_e( 'Височина', 'printpop' ); ?></span><input type="number" inputmode="decimal" min="1" step="any"></label>
+		<label class="pp-input"><span><?php esc_html_e( 'Дълбочина', 'printpop' ); ?></span><input type="number" inputmode="decimal" min="1" step="any"></label>
 	</div>
+
+	<p class="pp-note"><?php echo printpop_icon( 'info' ); // phpcs:ignore WordPress.Security.EscapeOutput ?><span><?php esc_html_e( 'Желани размери в милиметри (по желание).', 'printpop' ); ?></span></p>
 
 	<div class="pp-formrow">
 		<label class="pp-input"><span><?php esc_html_e( 'Цвят', 'printpop' ); ?></span><input type="text"></label>
